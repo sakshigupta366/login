@@ -31,6 +31,10 @@ submit=()=>{
 if(!(this.state.usernm && this.state.usernm.match(/^[a-zA-Z ]*$/))||!(this.state.email)||!(this.state.phoneno && this.state.phoneno.match(/^[0-9]{10}$/))||!(this.state.passwd)){
   alert('plz fill the inputs correctly');
 }
+  else 
+  {
+    alert("login successfully");
+  }
 }
   render() {
     return (
